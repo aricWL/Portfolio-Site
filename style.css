@@ -1,0 +1,157 @@
+html, body{
+	margin: 0px;
+	padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bgcover{
+	background-color: #e0ebe8;
+	height: 49.5vw;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.nav{
+	float: left;
+	display: flex;
+	justify-content: space-around;
+	width: 30vw;
+	height: 5.5vw;
+	margin-top: 1vw;
+}
+
+.item{
+	font-family: Raleway;
+	width: 25%;
+	height: 100%;
+	color: #45b29a;
+	font-size: 1.25em;
+	line-height: 50%;
+	margin-top: .6vw;
+}
+
+.item2{
+	font-family: Raleway;
+	width: 25%;
+	height: 100%;
+	color: #45b29a;
+	font-size: 1.4vw;
+	margin-top: 1.75vw;
+}
+
+.greeting{
+	margin-top: 13.5vw;
+}
+
+.name{
+	font-family: Clicker Script;
+	color: #45b29a;
+	font-size: 7.9vw;
+	margin-left: 38vw;
+	vertical-align: middle;
+}
+
+.title{
+	font-family: Lato;
+	margin-left: 44vw;
+	font-size: 1.5vw;
+	color: #45b29a;
+}
+
+.vector{
+	margin-top: 11vw;
+	width: 100vw;
+	height: 13vw;
+	opacity: 0.9;
+	background-image: url('skyline.png');
+	background-size: 100vw 15vw;
+	background-position: cover;
+}
+
+.pic{
+	background-image: url('circle.png');
+	background-position: cover;
+	width: 4vw;
+	height: 4vw;
+	background-size: 100% 100%;
+	margin-left: 2vw;
+}
+
+.suncloud{
+	margin-top: -8vw;
+	margin-left: 7.5vw;
+	background-image: url('suncloud.png');
+	float: left;
+	height: 10vw;
+	width: 20vw;
+	background-size: 30vw 15vw;
+	background-repeat: no-repeat;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(0deg);}
+    50%{-webkit-transform: rotate(-10deg)}
+    100%{-webkit-transform: rotate(0deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(-10deg);}
+    50%{transform: rotate(-15deg)}
+    100%{transform: rotate(-10deg);}
+}
+
+.cloud2{
+	margin-left: 42vw;
+	margin-top: -16vw;
+	background-image: url('cloud2.png');
+	float: left;
+	height: 15vw;
+	width: 30vw;
+	background-size: 22vw 11vw;
+	background-repeat: no-repeat;
+	-webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.float{
+	float: right;
+	opacity: 0.75;
+	margin-top: 1.1vw;
+}
+
+.contact{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 25vw;
+	height: 5.5vw;
+	margin-top: 2.5;
+}
+
+.contactdiv{
+	width: 3vw;
+	height: 3vw;
+}
+
+a{
+	height: 100%;
+	width: 100%;
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+.about{
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+}
