@@ -31,13 +31,17 @@ html, body{
 	margin-top: .6vw;
 }
 
-.item2{
+.item2, .item3{
 	font-family: Raleway;
 	width: 25%;
 	height: 100%;
 	color: #45b29a;
 	font-size: 1.4vw;
 	margin-top: 1.75vw;
+}
+
+.item2:hover, .item3:hover{
+	cursor: pointer;
 }
 
 .greeting{
@@ -154,6 +158,7 @@ img{
 	height: 20vw;
 	width: 100vw;
 	background-color: #fff;
+	font-family: Crimson Text;
 }
 
 .sectionheader{
@@ -176,7 +181,7 @@ img{
 }
 
 .capabilities{
-	height: 47vw;
+	height: 44vw;
 	width: 100vw;
 	text-align: center;
 	font-family: Lato;
@@ -245,8 +250,10 @@ img{
 	width: 100%;
 	height: 60%;
 	font-size: 1.5vw;
-	font-family: Times;
+	font-family: Crimson Text;
 	color: #545454;
+	text-align: center;
+
 }
 
 .pic2{
@@ -264,3 +271,78 @@ p{
 	margin-bottom: 3vw;
 }
 
+.work{
+	width: 100vw;
+	height: 90vw;
+}
+
+.top2{
+	height: 7vw;
+	width: 100%;
+	text-align: center;
+	font-family: Lato;
+	color: #1e836c;
+	font-size: 4vw;
+}
+
+.project1{
+	display: flex;
+	width: 90vw;
+	height: 20vw;
+	margin-left: 5vw;
+	margin-bottom: 8vw;
+	margin-top: 3vw;
+}
+
+.picture1{
+	width: 50%;
+	height: 100%;
+}
+
+.text1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+	height: 100%;
+}
+
+.pic3{
+	height: 100%;
+	width: 100%;
+	background-image: url('slow.png');
+	background-size: 85% 90%;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.pic4{
+	height: 100%;
+	width: 100%;
+	background-image: url('cams.png');
+	background-size: 85% 90%;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.pic5{
+	height: 100%;
+	width: 100%;
+	background-image: url('deewit.png');
+	background-size: 85% 90%;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+.pic6{
+	height: 100%;
+	width: 100%;
+	background-image: url('brain.png');
+	background-size: 85% 90%;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-top: 2%;
+}
