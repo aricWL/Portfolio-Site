@@ -156,7 +156,7 @@ img{
 }
 
 .about{
-	height: 20vw;
+	height: 22vw;
 	width: 100vw;
 	background-color: #fff;
 	font-family: Crimson Text;
@@ -179,10 +179,11 @@ img{
 	font-size: 1.5vw;
 	line-height: 125%;
 	color: #545454;
+	font-family: Crimson Text;
 }
 
 .capabilities{
-	height: 44vw;
+	height: 48vw;
 	width: 100vw;
 	text-align: center;
 	font-family: Lato;
@@ -199,6 +200,7 @@ img{
 	text-align: center;
 	margin-left: 37vw;
 	opacity: 0.3;
+	margin-bottom: 2vw;
 }
 
 .develop{
@@ -235,6 +237,10 @@ img{
 	justify-content: space-around;
 	width: 50%;
 	height: 100%;
+}
+
+a{
+	color: #45b29a;
 }
 
 .big{
@@ -346,4 +352,269 @@ p{
 	background-repeat: no-repeat;
 	margin-left: 10%;
 	margin-top: 2%;
+}
+
+@media (min-width: 801px){
+	.phone{
+		display: none;
+	}
+}
+
+@media (max-width: 800px){
+	.desktop{
+		display: none;
+	}
+	.float{
+		margin-top: 2vw;
+	}
+	.contact{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 100vw;
+		height: 5.5vw;
+		margin-top: 1.2vw;
+	}
+
+	.contactdiv{
+		width: 6%;
+		height: 100%;
+	}
+	.bgcover{
+		background-color: #e0ebe8;
+		height: 75vw;
+		width: 100vw;
+		overflow: hidden;
+	}
+	.greeting{
+		margin-top: 25vw;
+	}
+
+	.name{
+		font-family: Clicker Script;
+		color: #45b29a;
+		font-size: 14vw;
+		margin-left: 30vw;
+		vertical-align: middle;
+	}
+
+	.title{
+		font-family: Lato;
+		margin-left: 36vw;
+		font-size: 4vw;
+		color: #45b29a;
+	}
+
+	.vector{
+		margin-top: 13.9vw;
+		width: 100vw;
+		height: 13vw;
+		opacity: 0.9;
+		background-image: url('skyline.png');
+		background-size: 100vw 15vw;
+		background-position: cover;
+	}
+	.about{
+		height: 33vw;
+		width: 100vw;
+		background-color: #fff;
+		font-family: Crimson Text;
+	}
+
+	.sectionheader{
+		margin-top: 3vw;
+		width: 100vw;
+		height: 10vw;
+		text-align: center;
+		line-height: 10vw;
+		font-family: Lato;
+		color: #1e836c;
+		font-size: 10vw;
+	}
+
+	.abouttext{
+		text-align: center;
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 3vw;
+		font-size: 3.3vw;
+		line-height: 125%;
+		color: #545454;
+		font-family: Crimson Text;
+	}
+
+	.capabilities{
+		height: 152vw;
+		width: 100vw;
+		text-align: center;
+		font-family: Lato;
+		color: #1e836c;
+		font-size: 10vw;
+	}
+
+	.divider{
+		width: 100vw;
+		height: 5vw;
+		background-image: url('dots.png');
+		background-size: 50vw 6vw;
+		background-repeat: no-repeat;
+		text-align: center;
+		margin-left: 24vw;
+		opacity: 0.3;
+		margin-bottom: 5vw;
+	}
+
+	.develop{
+		width: 90vw;
+		height: 20vw;
+		margin-left: 5vw;
+	}
+
+	.team{
+		width: 80vw;
+		height: 20vw;
+		margin-left: 10vw;
+	}
+
+	.picture{
+		display: block;
+		width: 90vw;
+		height: 35vw;
+		margin-left: 5vw;
+	}
+
+	.pic1{
+		height: 100%;
+		width: 100%;
+		background-image: url('technologies.jpg');
+		background-size: 75% 100%;
+		background-repeat: no-repeat;
+		margin-left: 12.5%;
+	}
+
+	.text{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		width: 50%;
+		height: 100%;
+	}
+
+	a{
+		color: #45b29a;
+	}
+
+	.big{
+		margin-top: 2vw;
+		width: 100%;
+		height: 7vw;
+		font-family: Lato;
+		font-size: 4vw;
+		color: #45b29a;
+		text-align: center;
+	}
+
+	.small{
+		width: 90vw;
+		height: 22vw;
+		font-size: 3.3vw;
+		font-family: Crimson Text;
+		color: #545454;
+		text-align: center;
+		margin-left: 5vw;
+		margin-bottom: 5vw;
+	}
+
+	.pic2{
+		height: 100%;
+		width: 100%;
+		background-image: url('team.svg');
+		background-size: 80% 100%;
+		background-repeat: no-repeat;
+		margin-left: 10%;
+		margin-top: -2.2vw;
+	}
+
+	p{
+		margin-top: 0;
+		margin-bottom: 3vw;
+	}
+
+	.work{
+		width: 100vw;
+		min-height: 90vw;
+	}
+
+	.top2{
+		height: 20vw;
+		width: 100vw;
+		text-align: center;
+		font-family: Lato;
+		color: #1e836c;
+		font-size: 10vw;
+	}
+
+	.project1{
+		display: flex;
+		width: 90vw;
+		height: 20vw;
+		margin-left: 5vw;
+		margin-bottom: 8vw;
+		margin-top: 3vw;
+	}
+
+	.picture1{
+		display: block;
+		width: 90vw;
+		height: 35vw;
+		margin-left: 5vw;
+	}
+
+	.text1{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		width: 50%;
+		height: 100%;
+	}
+
+	.pic3{
+		height: 100%;
+		width: 100%;
+		background-image: url('slow.png');
+		background-size: 80% 100%;
+		background-repeat: no-repeat;
+		margin-left: 10%;
+		margin-top: -2.2vw;
+	}
+
+	.pic4{
+		height: 100%;
+		width: 100%;
+		background-image: url('cams.png');
+		background-size: 80% 100%;
+		background-repeat: no-repeat;
+		margin-left: 10%;
+		margin-top: -2.2vw;
+	}
+
+	.pic5{
+		height: 100%;
+		width: 100%;
+		background-image: url('deewit.png');
+		background-size: 80% 100%;
+		background-repeat: no-repeat;
+		margin-left: 10%;
+		margin-top: -2.2vw;
+	}
+
+	.pic6{
+		height: 100%;
+		width: 100%;
+		background-image: url('brain.png');
+		background-size: 80% 100%;
+		background-repeat: no-repeat;
+		margin-left: 10%;
+		margin-top: -2.2vw;
+	}
 }
